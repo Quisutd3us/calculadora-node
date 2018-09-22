@@ -1,0 +1,26 @@
+{
+  "name": "multiplicar",
+  "version": "2.0.0",
+  "description": "app que imprime en un txt la tabla de la base ingresada",
+  "main": "app.js",
+  "bin": {
+    "multiplicar": "multiplicar.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calc",
+    "js"
+  ],
+  "author": "David Nariño",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^3.0.0",
+    "colors": "^1.3.2",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
